@@ -1,11 +1,3 @@
-<div class="hot-deals-area carosel-circle">
-	<div class="row">
-		<div class="active-hot-deals">
-		 <?php dynamic_sidebar('recommended'); ?>
-		</div>
-	</div>
-</div>
-<!-- END HOT-DEALS-AREA -->
 <!-- START SMALL-PRODUCT-AREA -->
 <?php dynamic_sidebar('bestseller'); ?>
 <!-- END SMALL-PRODUCT-AREA -->

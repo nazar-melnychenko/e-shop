@@ -113,9 +113,11 @@ function register_widgets() {
 add_action( 'widgets_init', 'register_widgets' );
 
 include 'inc/class-wc-widget-top-rat.php';
+include 'inc/class-widget-products.php';
 
 function wpb_load_widget() {
 	register_widget( 'WC_Widget_Top_Rated' );
+	register_widget( 'WC_Products' );
 }
 
 add_action( 'widgets_init', 'wpb_load_widget' );

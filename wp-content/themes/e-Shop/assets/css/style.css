@@ -1343,9 +1343,14 @@ h3.title-group.border-red {
 
 .single-hot-deals {
 	border: 1px solid #e3e3e3;
-	margin: 20px 0 1px;
+	margin: 20px 10px 1px;
 	overflow: hidden;
 	text-align: center;
+}
+
+.owl-theme .owl-controls {
+	text-align: right;
+	margin-right: 5px;
 }
 
 .hot-deals-photo a {

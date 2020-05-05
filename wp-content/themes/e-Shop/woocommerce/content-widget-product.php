@@ -23,27 +23,29 @@ global $product;
 if ( ! is_a( $product, 'WC_Product' ) ) {
 	return;
 }
-
 ?>
-<div class="col-xs-12">
-	<div class="single-hot-deals">
-		<div class="hot-deals-photo">
-			<a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/hot-deals/2.jpg" alt="Product"></a>
+
+<div class="single-hot-deals">
+	<div class="hot-deals-photo">
+		<a href="<?php echo esc_url( $product->get_permalink() ); ?>">
+		<?php echo $product->get_image('thumbnail');?>
+<!--				<img src="--><?php //echo get_template_directory_uri();?><!--/assets/img/hot-deals/2.jpg" alt="Product">-->
+		</a>
+	</div>
+	<div class="count-down">
+		<div class="timer">
+			<div data-countdown="<?php echo date("Y/m/d",time() + 24 * 60 * 60);?>"></div>
 		</div>
-		<div class="count-down">
-			<div class="timer">
-				<div data-countdown="2017/06/30"></div>
-			</div>
-		</div>
-		<div class="hot-deals-text">
-			<h5><a href="#" class="name-group">Trid Palm</a></h5>
-			<span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-								class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></span>
-			<div class="price-box">
-				<span class="price gfont-2">$85.00</span>
-				<span class="old-price gfont-2">$120.00</span>
-			</div>
+	</div>
+	<div class="hot-deals-text">
+		<h5><a href="<?php echo esc_url( $product->get_permalink() ); ?>" class="name-group">
+					<?php echo wp_kses_post( $product->get_name() ); ?>
+			</a></h5>
+		<span class="rating">
+			<?php stars_rating(); ?>
+		</span>
+		<div class="price-box">
+			<?php echo $product->get_price_html();?>
 		</div>
 	</div>
 </div>
-
