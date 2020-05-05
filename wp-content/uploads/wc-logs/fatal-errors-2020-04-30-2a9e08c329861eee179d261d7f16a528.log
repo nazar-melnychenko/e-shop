@@ -1,0 +1,109 @@
+2020-04-30T12:03:44+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:03:49+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:04:27+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:05:40+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:79
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 79
+
+2020-04-30T12:06:02+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:06:22+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:06:57+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php:80
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal f у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 80
+
+2020-04-30T12:14:16+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php доступно 84
+
+2020-04-30T18:31:23+00:00 CRITICAL Uncaught Error: Call to a member function get_product_id() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php:35
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php(109): woocommerce_order_review()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php доступно 35
+
+2020-04-30T19:10:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_formatted_product_price() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php:43
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php(109): woocommerce_order_review()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::check у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php доступно 43
+
+2020-04-30T19:10:44+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_product_price() on array in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php:43
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php(109): woocommerce_order_review()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkou у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php доступно 43
+
+2020-04-30T19:10:56+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_product_price() on string in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php:43
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/form-checkout.php(109): woocommerce_order_review()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(294): wc_get_template('checkout/form-c...', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checko у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/checkout/review-order.php доступно 43
+

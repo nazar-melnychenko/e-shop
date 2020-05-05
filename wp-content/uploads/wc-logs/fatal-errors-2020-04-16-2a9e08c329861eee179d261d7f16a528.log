@@ -1,0 +1,235 @@
+2020-04-16T08:49:17+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 23
+
+2020-04-16T08:49:23+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 23
+
+2020-04-16T08:49:30+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 23
+
+2020-04-16T09:43:26+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:43:31+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:44:00+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:44:00+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:44:03+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:44:48+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:45:13+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:46:09+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:46:14+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:46:14+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:46:26+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 4945
+
+2020-04-16T09:46:47+00:00 CRITICAL syntax error, unexpected end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php доступно 13
+
+2020-04-16T09:54:49+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 43
+
+2020-04-16T11:01:22+00:00 CRITICAL syntax error, unexpected '(', expecting '{' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/latlesl/inc/fcollection/widget.php доступно 9
+
+2020-04-16T11:01:37+00:00 CRITICAL Uncaught Error: Class '__construct' not found in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/latlesl/inc/fcollection/widget.php:9
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/latlesl/functions.php(88): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/latlesl/inc/fcollection/widget.php доступно 9
+
+2020-04-16T11:02:03+00:00 CRITICAL Uncaught Error: Class '__construct()' not found in /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(115): WP_Widget_Factory->register('__construct()')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/latlesl/inc/fcollection/widget.php(6): register_widget('__construct()')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): f_collection('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#9 /V у /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php доступно 61
+
+2020-04-16T12:58:26+00:00 CRITICAL Uncaught Error: Call to undefined function new_loop_shop_per_page() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:62
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 62
+
+2020-04-16T12:58:56+00:00 CRITICAL Uncaught Error: Call to undefined function loop_shop_per_page() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:62
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 62
+
+2020-04-16T13:06:06+00:00 CRITICAL Uncaught Error: Call to undefined function loop_shop_per_page() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:62
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 62
+
+2020-04-16T14:42:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_rating_html(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php on line 205 and at least 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3434
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php(205): wc_get_rating_html()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#4 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 3434
+
+2020-04-16T14:42:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_rating_html(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php on line 205 and at least 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3434
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php(205): wc_get_rating_html()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#4 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 3434
+
+2020-04-16T14:48:14+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:200
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 200
+
+2020-04-16T14:48:25+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:200
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 200
+
+2020-04-16T14:49:27+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:200
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 200
+
+2020-04-16T14:50:49+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:200
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 200
+
+2020-04-16T14:51:52+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php:200
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#3 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php доступно 200
+
+2020-04-16T15:08:16+00:00 CRITICAL Cannot redeclare wp_star_rating() (previously declared in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php:84) у /Volumes/Work/Beetroot/e-Shop/wp-admin/includes/template.php доступно 2572
+
+2020-04-16T15:10:17+00:00 CRITICAL Cannot redeclare wp_star_rating() (previously declared in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php:85) у /Volumes/Work/Beetroot/e-Shop/wp-admin/includes/template.php доступно 2572
+
+2020-04-16T15:12:17+00:00 CRITICAL Cannot redeclare wp_star_rating() (previously declared in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php:85) у /Volumes/Work/Beetroot/e-Shop/wp-admin/includes/template.php доступно 2572
+
+2020-04-16T16:19:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1628
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/taxonomy-product_cat.php(136): woocommerce_variable_add_to_cart()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#4 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 1628
+
+2020-04-16T16:35:37+00:00 CRITICAL require_once(): Failed opening required '/Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/lib/wp_bootstrap_navwalker.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.8/lib/php') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/functions.php доступно 271
+
+2020-04-16T16:35:57+00:00 CRITICAL require(): Failed opening required '/Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/lib/customizer/info.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.8/lib/php') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/lib/customizer.php доступно 11
+
+2020-04-16T16:36:11+00:00 CRITICAL require_once(): Failed opening required '/Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/lib/wp_bootstrap_navwalker.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.8/lib/php') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/envo-storefront/functions.php доступно 271
+
+2020-04-16T16:41:42+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/functions.php:37
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#5 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/functions.php доступно 37
+
+2020-04-16T16:42:01+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_get_content_background_color() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:615
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php(921): Storefront_Customizer->get_storefront_theme_mods()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): Storefront_Customizer->block_editor_customizer_css('')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/script-loader.php(2480): do_action('enqueue_block_a...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_common_block_scripts_and_styles('')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 /Volumes/Work/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php доступно 615
+
+2020-04-16T16:42:16+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_get_content_background_color() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:615
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php(921): Storefront_Customizer->get_storefront_theme_mods()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): Storefront_Customizer->block_editor_customizer_css('')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/script-loader.php(2480): do_action('enqueue_block_a...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_common_block_scripts_and_styles('')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 /Volumes/Work/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php доступно 615
+
+2020-04-16T16:42:31+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/header.php:30
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/page.php(13): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#6 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#7 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/header.php доступно 30
+
+2020-04-16T16:42:33+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/header.php:30
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/page.php(13): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#6 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#7 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/header.php доступно 30
+
+2020-04-16T16:43:04+00:00 CRITICAL require(): Failed opening required 'inc/class-storefront.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.8/lib/php') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 27
+
+2020-04-16T16:43:05+00:00 CRITICAL require(): Failed opening required 'inc/class-storefront.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.8/lib/php') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 27
+
+2020-04-16T16:43:32+00:00 CRITICAL Uncaught Error: Class 'Custom_Walker_Nav_Menu' not found in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/category.php:13
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php(12): get_template_part('template-parts/...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#6 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#7 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/category.php доступно 13
+
+2020-04-16T16:43:56+00:00 CRITICAL syntax error, unexpected '<', expecting end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 93
+

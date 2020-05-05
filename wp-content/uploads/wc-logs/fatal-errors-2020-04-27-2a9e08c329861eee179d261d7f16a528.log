@@ -1,0 +1,164 @@
+2020-04-27T10:13:14+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php доступно 362
+
+2020-04-27T10:39:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YITH_WCWL_Frontend::wishlist_footer(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php on line 49 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php:463
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(49): YITH_WCWL_Frontend->wishlist_footer()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Volumes/Work/Be у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php доступно 463
+
+2020-04-27T10:57:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-admin/admin-ajax.php(22): require_once('/Volumes/Work/B...')
+#5 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:57:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-admin/admin-ajax.php(22): require_once('/Volumes/Work/B...')
+#5 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:57:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:58:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:58:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:58:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T10:58:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php on line 114 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php:583
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(114): remove_action('yith_wcwl_after...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php доступно 583
+
+2020-04-27T11:15:03+00:00 CRITICAL Uncaught Error: Call to undefined function wishlist_header() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:15:32+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:15:43+00:00 CRITICAL Uncaught Error: Call to undefined method YITH_WCWL::wishlist_header() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-conten у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:16:29+00:00 CRITICAL Uncaught Error: Call to undefined method YITH_WCWL_Premium::wishlist_header() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/w у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:16:56+00:00 CRITICAL Uncaught Error: Call to undefined method YITH_WCWL_Premium::wishlist_header() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/w у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:17:00+00:00 CRITICAL Uncaught Error: Call to undefined method YITH_WCWL_Premium::wishlist_header() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/w у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 34
+
+2020-04-27T11:17:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YITH_WCWL_Frontend::wishlist_header(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php on line 34 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php:450
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php(34): YITH_WCWL_Frontend::wishlist_header()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#4 / у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php доступно 450
+
+2020-04-27T11:18:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function YITH_WCWL_Frontend::wishlist_header(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php on line 34 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php:450
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php(34): YITH_WCWL_Frontend->wishlist_header()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#4 / у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php доступно 450
+
+2020-04-27T11:42:11+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_image_url() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php:64
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp- у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist-view.php доступно 64
+

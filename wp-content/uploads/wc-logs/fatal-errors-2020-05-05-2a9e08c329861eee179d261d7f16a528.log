@@ -1,0 +1,140 @@
+2020-05-05T10:05:26+00:00 CRITICAL Uncaught Error: Call to undefined function template_single_add_to_cart() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:45
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_w у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 45
+
+2020-05-05T10:05:43+00:00 CRITICAL Uncaught Error: Call to undefined function template_single_add_to_cart() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:45
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_w у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 45
+
+2020-05-05T10:11:41+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:46
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 46
+
+2020-05-05T10:12:55+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:15:33+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:15:38+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:15:42+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:15:43+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:16:48+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:31
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 31
+
+2020-05-05T10:17:03+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:30
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+# у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 30
+
+2020-05-05T10:33:06+00:00 CRITICAL Uncaught Error: Call to undefined function yith_quick_view_share() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php:34
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-quick-view-premium/includes/class.yith-wcqv-frontend.php(477): wc_get_template('yith-quick-view...', Array, '', '/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): YITH_WCQV_Frontend->load_product_quick_view_ajax('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(89): do_action('wc_ajax_yith_lo...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): WC_AJAX::do_wc_ajax у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/yith-quick-view-content.php доступно 34
+
+2020-05-05T19:30:05+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php:188
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Products->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/main-baner.php(4): dynamic_sidebar('recommended')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php(61): get_template_part('template-parts/...')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/templ у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php доступно 188
+
+2020-05-05T19:30:26+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php:188
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Products->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/main-baner.php(4): dynamic_sidebar('recommended')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/archive-product.php(61): get_template_part('template-parts/...')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/templ у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php доступно 188
+

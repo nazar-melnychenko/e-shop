@@ -1,0 +1,55 @@
+2020-04-26T18:19:49+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php:120
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(4): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#7 [internal function] у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php доступно 120
+
+2020-04-26T18:19:58+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php:120
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(4): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#7 [internal function] у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php доступно 120
+
+2020-04-26T18:20:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php:120
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(4): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#7 [internal function] у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php доступно 120
+
+2020-04-26T18:22:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php:120
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(6): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#7 [internal function] у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php доступно 120
+
+2020-04-26T18:22:49+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php:120
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(723): require_once()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', true)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/wishlist.php(6): get_header()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/functions.yith-wcwl.php(98): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/yith-woocommerce-wishlist-premium/includes/class.yith-wcwl-shortcode.php(526): yith_wcwl_get_template('wishlist.php', Array, true)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/shortcodes.php(343): YITH_WCWL_Shortcode::wishlist(Array, '', 'yith_wcwl_wishl...')
+#7 [internal function] у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/header.php доступно 120
+

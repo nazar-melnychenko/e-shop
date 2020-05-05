@@ -1,0 +1,60 @@
+2020-04-17T14:56:27+00:00 CRITICAL syntax error, unexpected '<', expecting end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 8
+
+2020-04-17T15:32:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_gallery_image_html(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php on line 118 and at least 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1461
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php(118): wc_get_gallery_image_html()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1438): wc_get_template('single-product/...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(250): woocommerce_show_product_images()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e- у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 1461
+
+2020-04-17T15:40:48+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php:26
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1438): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(250): woocommerce_show_product_images()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(1 у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php доступно 26
+
+2020-04-17T17:03:24+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php:9
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1438): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(250): woocommerce_show_product_images()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(10 у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/product-image.php доступно 9
+
+2020-04-17T17:08:36+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php:256
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 256
+
+2020-04-17T19:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_review_display_gravatar(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php on line 610 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1839
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(610): woocommerce_review_display_gravatar()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-hea у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 1839
+
+2020-04-17T19:32:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_review_display_gravatar(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php on line 610 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1839
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(610): woocommerce_review_display_gravatar()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-hea у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 1839
+

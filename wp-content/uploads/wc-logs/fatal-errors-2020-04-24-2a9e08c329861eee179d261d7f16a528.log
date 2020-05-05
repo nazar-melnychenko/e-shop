@@ -1,0 +1,102 @@
+2020-04-24T09:37:46+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:68
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/B у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 68
+
+2020-04-24T09:37:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:68
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/B у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 68
+
+2020-04-24T09:39:53+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:68
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/B у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 68
+
+2020-04-24T09:42:50+00:00 CRITICAL Uncaught Error: Call to undefined function wp_reset_vars() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:82
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/Beetroot/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 82
+
+2020-04-24T09:43:20+00:00 CRITICAL Uncaught Error: Call to undefined function wp_reset_vars() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:82
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/Beetroot/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 82
+
+2020-04-24T09:44:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_reset_vars() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php:87
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(26): dynamic_sidebar('bestseller')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#7 /Volumes/Work/Beetroot/ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php доступно 87
+
+2020-04-24T11:38:32+00:00 CRITICAL Uncaught Error: Class 'WC_Widget_Layered_Nav_Filters' not found in /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Layer...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-widget-functions.php(37): register_widget('WC_Widget_Layer...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wc_register_widgets('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugi у /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php доступно 61
+
+2020-04-24T12:30:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Widget_Filter::get_instance_taxonomy(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php on line 494 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php:110
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php(494): WC_Widget_Filter->get_instance_taxonomy()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php(185): WC_Widget_Filter->layered_nav_list(Array, 'pa_color', 'and')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Filter->widget(Array, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/filters.php(6): dynamic_sidebar('products_filter...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/tem у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php доступно 110
+
+2020-04-24T12:31:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Widget_Filter::get_instance_taxonomy(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php on line 494 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php:110
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php(494): WC_Widget_Filter->get_instance_taxonomy()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php(185): WC_Widget_Filter->layered_nav_list(Array, 'pa_color', 'and')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Filter->widget(Array, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/filters.php(6): dynamic_sidebar('products_filter...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/tem у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-filter.php доступно 110
+
+2020-04-24T17:14:04+00:00 CRITICAL syntax error, unexpected ''.">'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 98
+
+2020-04-24T17:18:48+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 96
+
+2020-04-24T17:19:09+00:00 CRITICAL syntax error, unexpected ';', expecting ')' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 99
+

@@ -1,0 +1,67 @@
+2020-04-18T11:59:46+00:00 CRITICAL Object of class WP_Comment could not be converted to string у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 615
+
+2020-04-18T12:00:05+00:00 CRITICAL Object of class WP_Comment could not be converted to string у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 615
+
+2020-04-18T12:41:02+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/functions.php:40
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-settings.php(514): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-config.php(90): require_once('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-load.php(37): require_once('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(13): require_once('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#5 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/storefront/functions.php доступно 40
+
+2020-04-18T13:09:48+00:00 CRITICAL Uncaught Error: Call to undefined function comm_rating_get_average_ratings() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php:119
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): comm_rating_display_average_rating('<p>Nunc facilis...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>Nunc facilis...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/post-template.php(253): apply_filters('the_content', 'Nunc facilisis ...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(332): the_content()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 119
+
+2020-04-18T13:09:54+00:00 CRITICAL Uncaught Error: Call to undefined function comm_rating_get_average_ratings() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php:119
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): comm_rating_display_average_rating('<p>Nunc facilis...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>Nunc facilis...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/post-template.php(253): apply_filters('the_content', 'Nunc facilisis ...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(332): the_content()
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product') у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php доступно 119
+
+2020-04-18T13:11:22+00:00 CRITICAL Uncaught Error: Call to undefined function comm_rating_rating_field() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php:625
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 625
+
+2020-04-18T13:51:06+00:00 CRITICAL syntax error, unexpected '<', expecting end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 624
+
+2020-04-18T17:38:36+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 574
+
+2020-04-18T19:04:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_form_field(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php on line 560 and at least 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2617
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(560): woocommerce_form_field()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 2617
+
+2020-04-18T19:31:25+00:00 CRITICAL Uncaught Error: Call to undefined function pings_open() in /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp.php:675
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp.php(738): WP->handle_404()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/functions.php(1274): WP->main('')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(16): wp()
+#3 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#4 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp.php доступно 675
+

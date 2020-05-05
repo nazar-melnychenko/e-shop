@@ -1,0 +1,20 @@
+2020-05-01T18:28:08+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Variable as array in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php:17
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(67): woocommerce_template_single_ у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php доступно 17
+
+2020-05-01T18:42:19+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php:20
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(67): woocommerce_template_single_ad у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php доступно 20
+

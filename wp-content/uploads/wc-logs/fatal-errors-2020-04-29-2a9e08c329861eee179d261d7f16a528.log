@@ -1,0 +1,4 @@
+2020-04-29T11:24:13+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/cart/cart-totals.php доступно 102
+
+2020-04-29T12:17:59+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/cart/shipping-calculator.php доступно 95
+

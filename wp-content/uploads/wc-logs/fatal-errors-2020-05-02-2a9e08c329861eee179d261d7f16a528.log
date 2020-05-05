@@ -1,0 +1,82 @@
+2020-05-02T14:43:14+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:28
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/templates/order/order-details.php(71): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(342)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /Volum у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 28
+
+2020-05-02T14:55:49+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:28
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(345)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /Volumes/W у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 28
+
+2020-05-02T15:01:11+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1814): wc_get_price_excluding_tax(NULL)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php(69): WC_Cart->get_product_price(NULL, NULL)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#6 /Volumes/Wor у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-product-functions.php доступно 1046
+
+2020-05-02T15:02:25+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1814): wc_get_price_excluding_tax(NULL)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php(50): WC_Cart->get_product_price(NULL, NULL)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#6 /Volumes/Wor у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-product-functions.php доступно 1046
+
+2020-05-02T15:11:00+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted_line_price() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:50
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(345)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plug у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 50
+
+2020-05-02T15:19:51+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_product_price() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:52
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(346)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_actio у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 52
+
+2020-05-02T15:22:12+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_price_html() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:52
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(346)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(A у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 52
+
+2020-05-02T15:28:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::get_product_price() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php:50
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details.php(74): wc_get_template('order/order-det...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_order_details_table(347)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/order/order-details-item.php доступно 50
+

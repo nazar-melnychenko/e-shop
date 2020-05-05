@@ -1,0 +1,108 @@
+2020-04-23T10:55:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Widget::widget_start(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php on line 49 and exactly 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php:161
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php(49): WC_Widget->widget_start()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/main-baner.php(85): dynamic_sidebar('bestseller')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#6 /Volumes/Work/Be у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php доступно 161
+
+2020-04-23T10:55:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Widget::widget_start(), 1 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php on line 49 and exactly 2 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php:161
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wc-widget-top-rat.php(49): WC_Widget->widget_start(Array)
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget.php(380): WC_Widget_Top_Rated->widget(Array, Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#3 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/main-baner.php(85): dynamic_sidebar('bestseller')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#6 /Volumes/Wo у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php доступно 161
+
+2020-04-23T12:25:34+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_add_to_cart() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php:307
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(197): load_template('/Volumes/Work/B...', false)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product.php(10): wc_get_template_part('content', 'single-product')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 307
+
+2020-04-23T13:02:51+00:00 CRITICAL syntax error, unexpected '<' у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 281
+
+2020-04-23T13:04:53+00:00 CRITICAL syntax error, unexpected 'current' (T_STRING) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 281
+
+2020-04-23T13:06:35+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php доступно 281
+
+2020-04-23T13:57:25+00:00 CRITICAL Uncaught Error: Call to undefined function wc_dropdown_variation_attribute_options() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(288): woocommerce_t у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php доступно 25
+
+2020-04-23T13:57:53+00:00 CRITICAL Uncaught Error: Call to undefined function wc_dropdown_variation_attribute_options() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(288): woocommerce_t у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php доступно 25
+
+2020-04-23T13:58:34+00:00 CRITICAL Uncaught Error: Call to undefined function wc_dropdown_variation_attribute_options() in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/content-single-product.php(288): woocommerce_t у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/add-to-cart/variable.php доступно 25
+
+2020-04-23T17:31:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php доступно 776
+
+2020-04-23T18:25:53+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' у /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets/class-wp-widget-media-gallery.php доступно 254
+
+2020-04-23T18:29:57+00:00 CRITICAL Uncaught Error: Class 'WP_Widget_Banner' not found in /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(115): WP_Widget_Factory->register('WP_Widget_Banne...')
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(106): register_widget('WP_Widget_Banne...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wpb_load_widget('')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+# у /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php доступно 61
+
+2020-04-23T18:33:42+00:00 CRITICAL Cannot declare class WP_Widget_Media_Gallery, because the name is already in use у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 260
+
+2020-04-23T18:34:29+00:00 CRITICAL Cannot declare class WP_Widget_Media, because the name is already in use у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 260
+
+2020-04-23T18:34:44+00:00 CRITICAL Cannot declare class WP_Widget_Media, because the name is already in use у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 260
+
+2020-04-23T18:42:23+00:00 CRITICAL WP_Widget_Banner cannot implement WP_Widget - it is not an interface у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 18
+
+2020-04-23T18:42:57+00:00 CRITICAL WP_Widget_Banner cannot implement WP_Widget_Media - it is not an interface у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 18
+
+2020-04-23T18:43:33+00:00 CRITICAL Uncaught Error: Cannot access parent:: when current class scope has no parent in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php:26
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-widget-factory.php(61): WP_Widget_Banner->__construct()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(115): WP_Widget_Factory->register('WP_Widget_Banne...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(107): register_widget('WP_Widget_Banne...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wpb_load_widget('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-includes/widgets.php(1765): do_action('widgets_init')
+#7 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#8 /Volumes/Work/Beetroot/e-Shop/wp-inclu у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 26
+
+2020-04-23T18:46:48+00:00 CRITICAL Cannot declare class WP_Widget_Media_Gallery, because the name is already in use у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/inc/class-wp-widget-banner.php доступно 262
+

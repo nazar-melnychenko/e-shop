@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/e-Shop.iml" filepath="$PROJECT_DIR$/.idea/e-Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../electronics/.idea/electronics.iml" filepath="$PROJECT_DIR$/../electronics/.idea/electronics.iml" />
+      <module fileurl="file:///Applications/MAMP/htdocs/beetpress/wp-content/themes/readitblog/.idea/readitblog.iml" filepath="/Applications/MAMP/htdocs/beetpress/wp-content/themes/readitblog/.idea/readitblog.iml" />
+    </modules>
+  </component>
+</project>
