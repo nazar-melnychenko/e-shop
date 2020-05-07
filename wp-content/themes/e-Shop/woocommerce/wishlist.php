@@ -1,18 +1,4 @@
 <?php
-/**
- * Wishlist pages template; load template parts basing on the url
- *
- * @author Your Inspiration Themes
- * @package YITH WooCommerce Wishlist
- * @version 3.0.0
- */
-
-/**
- * Template Variables:
- *
- * @var $template_part string Sub-template to load
- * @var $var array Array of attributes that needs to be sent to sub-template
- */
 
 if ( ! defined( 'YITH_WCWL' ) ) {
 	exit;

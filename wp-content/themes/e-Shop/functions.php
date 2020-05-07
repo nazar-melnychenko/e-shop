@@ -107,7 +107,7 @@ function register_widgets() {
 		'after_title'  => "</h4>\n",
 	] );
 	register_sidebar( [ 'name' => 'Товари з найбільшим рейтенгом', 'id' => 'bestseller' ] );
-	register_sidebar( [ 'name' => 'Рекомендовані товари', 'id' => 'recommended' ] );
+	register_sidebar( [ 'name' => 'Соціальні мережі', 'id' => 'socials' ] );
 };
 
 add_action( 'widgets_init', 'register_widgets' );

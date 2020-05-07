@@ -9,7 +9,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/solid.css" integrity="sha384-29Ax2Ao1SMo9Pz5CxU1KMYy+aRLHmOu6hJKgWiViCYpz3f9egAJNwjnKGgr+BXDN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/fontawesome.css" integrity="sha384-Lyz+8VfV0lv38W729WFAmn77iH5OSroyONnUva4+gYaQTic3iI2fnUKtDSpbVf0J" crossorigin="anonymous">
-	<?php wp_head(); ?>
+	<?php wp_head();
+	global $current_user;
+  global $wp;
+	?>
 </head>
 <body>
 
@@ -22,28 +25,25 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="top-menu">
 						<!-- Start Currency -->
-						<ul class="currency">
-							<li><a href="#"><strong>$</strong> USD<i class="fa fa-caret-down left-5"></i></a>
-								<ul>
-									<li><a href="#">$ EUR3</a></li>
-									<li><a href="#">$ GBP2</a></li>
-									<li><a href="#">$ USD1</a></li>
-								</ul>
-							</li>
-						</ul>
+						<div class="currency">
+							<?php echo do_shortcode('[woocs show_flags=1 flag_position=right style=1]'); ?>
+						</div>
 						<!-- End Currency -->
 						<p class="welcome-msg">Ласкаво просимо на сайт якісної техніки!</p>
 					</div>
 					<!-- Start Top-Link -->
 					<div class="top-link">
 						<ul class="link">
-							<li><a href="my-account.html"><i class="fa fa-user"></i> Мій акаунт</a></li>
 							<?php dynamic_sidebar('wish_list');?>
-							<li><a href="checkout.html"><i class="fa fa-share"></i> Вийти</a></li>
-							<li><a href="account.html"><i class="fa fa-unlock-alt"></i> Зайти...</a></li>
+							<li><a href="<?php echo home_url('/checkout/')?>"><i class="fa fa-share"></i> Оформити покупки</a></li>
+							<?php if (is_user_logged_in()) :?>
+								<li><a href="<?php echo home_url('/my-account/')?>"><i class="fa fa-user"></i> Мій акаунт</a></li>
+								<li class="logout">Вітаємо, <?php echo '<strong>' . esc_html( $current_user->display_name ) . '</strong>'?> <a class="logout" href="<?php echo wp_logout_url(home_url( $wp->request )); ?>">Вийти</a> </li>
+							<?php else : ?>
+								<li><a href="#" class="lrm-login"><i class="fa fa-unlock-alt"></i> Увійдіть в особистий кабінет</a></li>
+				      <?php endif; ?>
 						</ul>
 					</div>
-					<!-- End Top-Link -->
 				</div>
 			</div>
 		</div>
@@ -127,36 +127,6 @@
                     <span class="top-cart-price"><?php echo $woocommerce->cart->get_cart_total()?></span>
                   </span>
 									</a>
-									<div class="mini-cart-content">
-										<div class="cart-img-details">
-											<div class="cart-img-photo">
-												<a href="#"><img
-																	src="<?php echo get_template_directory_uri(); ?>/assets/img/product/total-cart.jpg"
-																	alt="#"></a>
-											</div>
-											<div class="cart-img-content">
-												<a href="#"><h4>Prod Aldults</h4></a>
-												<span>
-															<strong class="text-right">1 x</strong>
-															<strong class="cart-price text-right">$180.00</strong>
-														</span>
-											</div>
-											<div class="pro-del">
-												<a href="#"><i class="fa fa-times"></i></a>
-											</div>
-										</div>
-										<div class="clear"></div>
-										<div class="cart-inner-bottom">
-													<span class="total">
-														Total:
-														<span class="amount"><?php echo $woocommerce->cart->get_cart_total()?></span>
-													</span>
-											<span class="cart-button-top">
-														<a href="cart.html">View Cart</a>
-														<a href="checkout.html">Checkout</a>
-													</span>
-										</div>
-									</div>
 								</li>
 							</ul>
 						</div>

@@ -1,0 +1,5 @@
+07-05-2020 10:22:04 - FATAL - v: 6.6.4 - m: 53,9 MB, u: 1 - hjfdh@jlkf.fdf - ::1 - Antiflood triggered
+07-05-2020 10:36:10 - FATAL - v: 6.6.4 - m: 53,9 MB, u: 1 - gjghj@hyfdkj.hjfd - ::1 - Antiflood triggered
+07-05-2020 10:36:18 - FATAL - v: 6.6.4 - m: 53,9 MB, u: 1 - gjghj@hyfdkj.hjfd - ::1 - Antiflood triggered
+07-05-2020 11:05:09 - FATAL - v: 6.6.4 - m: 53,9 MB, u: 1 - qwerty@ghf.ghfd - ::1 - Antiflood triggered
+07-05-2020 12:05:08 - FATAL - v: 6.6.4 - m: 53,9 MB, u: 1 - qfdfdf@q.qff - ::1 - Antiflood triggered

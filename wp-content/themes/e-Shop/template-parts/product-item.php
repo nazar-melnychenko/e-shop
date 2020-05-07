@@ -22,15 +22,11 @@
 		<div class="product-button">
 			<?php woocommerce_external_add_to_cart(); ?>
 		</div>
-
 		<div class="product-button-2">
 		 <?php echo do_shortcode('[yith_wcwl_add_to_wishlist]');?>
 		 <?php echo do_shortcode('[yith_compare_button]');?>
 		 <?php echo do_shortcode('[yith_quick_view]');?>
-<!--			<a href="#" class="modal-view" data-toggle="modal" data-target="#productModal"><i-->
-<!--								class="fa fa-search-plus"></i></a>-->
 		</div>
-
 	</div>
 </div>
 </div>

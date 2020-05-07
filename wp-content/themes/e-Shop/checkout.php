@@ -26,8 +26,9 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="banner">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner/12.jpg"
-								                 alt="Product Banner"></a>
+								<a href="<?php the_field('main_banner_url', 'options');?>">
+									<img src="<?php the_field('main_banner_img', 'options');?>" alt="Product Banner">
+								</a>
 							</div>
 						</div>
 					</div>
@@ -39,4 +40,5 @@ get_header();
 		</div>
 	</div>
 </section>
+
 <?php get_footer(); ?>

@@ -106,7 +106,7 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 				<h3 id="order_review_heading"><?php esc_html_e( 'Your order', 'woocommerce' ); ?></h3>
 				<div class="panel-body">
 					<div class="table-responsive">
-					<?php woocommerce_order_review(); ?>123456789
+					<?php woocommerce_order_review(); ?>
 					</div>
 					<div class="buttons pull-right">
 						<noscript class="noscript">

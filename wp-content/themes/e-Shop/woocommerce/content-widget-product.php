@@ -29,7 +29,6 @@ if ( ! is_a( $product, 'WC_Product' ) ) {
 	<div class="hot-deals-photo">
 		<a href="<?php echo esc_url( $product->get_permalink() ); ?>">
 		<?php echo $product->get_image('thumbnail');?>
-<!--				<img src="--><?php //echo get_template_directory_uri();?><!--/assets/img/hot-deals/2.jpg" alt="Product">-->
 		</a>
 	</div>
 	<div class="count-down">

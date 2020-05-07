@@ -1,0 +1,127 @@
+07-05-2020 12:02:13 - ERROR - v: 6.6.4 - m: 62,2 MB, u: 1 - TNP_Mailer_Message Object
+(
+    [to_name] => 
+    [headers] => Array
+        (
+            [Precedence] => bulk
+            [X-Newsletter-Email-Id] => 1
+            [X-Auto-Response-Suppress] => OOF, AutoReply
+            [List-Unsubscribe-Post] => List-Unsubscribe=One-Click
+            [List-Unsubscribe] => <http://e-shop:8888/?na=lu&nk=1-5116485208&nek=1->
+        )
+
+    [user_id] => 1
+    [email_id] => 1
+    [error] => No error explanation reported
+    [subject] => [TEST] Dummy subject, it was empty (remember to set it)
+    [body] => <!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+ <title>[TEST] Dummy subject, it was empty (remember to set it)</title>
+ <!--[if !mso]><!-- -->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <!--<![endif]-->
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style type="text/css">
+ a {
+ text-decoration: none;
+ color: #555555;
+ }
+ #outlook a {
+ padding: 0;
+ }
+
+ body {
+ margin: 0;
+ padding: 0;
+ -webkit-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ }
+
+ table,
+ td {
+ border-collapse: collapse;
+ mso-table-lspace: 0pt;
+ mso-table-rspace: 0pt;
+ }
+
+ img {
+ border: 0;
+ height: auto;
+ line-height: 100%;
+ outline: none;
+ text-decoration: none;
+ -ms-interpolation-mode: bicubic;
+ max-width: 100%;
+ }
+
+ p {
+ display: block;
+ margin: 13px 0;
+ }
+ @media all and (max-width: 525px) {
+ td {
+ float: left;
+ display: block;
+ }
+ }
+ </style>
+ <!--[if mso]>
+ <xml>
+ <o:OfficeDocumentSettings>
+ <o:AllowPNG/>
+ <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml>
+ <![endif]-->
+ 
+ <!--[if lte mso 11]>
+ <style type="text/css">
+ .mj-outlook-group-fix { width:100% !important; }
+ </style>
+ <![endif]-->
+</head>
+
+<body style="margin: 0!important; padding: 0!important; background-color: #f4f4f4;">
+<div style="background-color: #f4f4f4;"><br />
+<div style="background-color: #ffffff; margin: 0px auto; max-width: 600px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color: #666; padding: 0; border: 0;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600" style="vertical-align:top;width:600px;"><![endif]-->
+<table style="max-width: 600px; width: 100%; border-collapse: collapse;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td style="text-align: left; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color: #666;" align="left" valign="top" bgcolor="#ffffff" width="100%">
+<div style="text-align: center;">
+<div style="padding: 30px 0; color: #000; font-size: 28px; border-bottom: 1px solid #ddd; text-align: center;">e-Shop</div>
+<div style="padding: 10px 0; color: #000; font-size: 16px; text-align: center;">Інтернет магазин якісних товарів!</div>
+</div>
+<div style="padding: 10px 20px 20px 20px; background-color: #fff; line-height: 18px;">
+<p style="text-align: center; font-size: small;"><a href="http://e-shop:8888/?nltr=MTsxO2h0dHA6Ly9lLXNob3A6ODg4OC8%2FbmE9diZuaz0xLTUxMTY0ODUyMDgmaWQ9MTs7YzBiNTgwZjIwNTIwYjU0MTI5MTY2MzM5MWUzYzk5YTA%3D" target="_blank" rel="noopener">View this email online</a></p>
+<p>Here you can start to write your message. Be polite with your readers! Don't forget the subject of this message.</p>
+<!-- Footer -->
+<div style="text-align: center; font-weight: bold; margin: 40px 0 10px;"> </div>
+<div style="text-align: center; margin: 10px 0 20px;"> </div>
+<!-- Social -->
+<div style="text-align: center; color: #888; margin-top: 20px;"> </div>
+<div style="text-align: center; color: #888;">To change your subscription, <a href="http://e-shop:8888/?nltr=MTsxO2h0dHA6Ly9lLXNob3A6ODg4OC8%2FbmE9cHJvZmlsZSZuaz0xLTUxMTY0ODUyMDg7OzdjZWUzMmNiN2EwY2YyY2M4MDJiNjI1YmYzZDdkNDMy" target="_blank" rel="noopener">click here</a>.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso | IE]></td></tr></table><![endif]--></div>
+</div>
+<img width="1" height="1" alt="" src="http://e-shop:8888/?noti=MTsxOzY1MTJiZDQzZDljYWE2ZTAyYzk5MGIwYTgyNjUyZGNh"/></body>
+</html>
+    [body_text] => This email requires a modern e-mail reader but you can view the email online here:
+
+http://e-shop:8888/?na=v&nk=1-5116485208&id=1.
+
+Thank you, e-Shop
+To change your subscription follow:
+http://e-shop:8888/?na=profile&nk=1-5116485208.
+    [to] => eshop@admin.com
+    [from] => newsletter@e-shop
+    [from_name] => e-Shop
+)
+
+07-05-2020 12:02:13 - ERROR - v: 6.6.4 - m: 62,2 MB, u: 1 - No error message reported (1) - 

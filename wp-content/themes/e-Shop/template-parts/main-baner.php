@@ -1,6 +1,7 @@
 <!-- START SMALL-PRODUCT-AREA -->
 <?php dynamic_sidebar('bestseller'); ?>
 <!-- END SMALL-PRODUCT-AREA -->
+
 <!-- START SIDEBAR-BANNER -->
 <?php $sb_filds = get_field('sidebar_banner', 'options'); ?>
 <div class="sidebar-banner">
