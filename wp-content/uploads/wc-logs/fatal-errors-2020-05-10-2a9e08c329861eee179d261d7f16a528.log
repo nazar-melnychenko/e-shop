@@ -1,0 +1,99 @@
+2020-05-10T12:34:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(112): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:35:03+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(112): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:35:25+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(112): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:36:09+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(112): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:38:55+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(112): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:39:41+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(111): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template-loader.php(106): include('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-blog-header.php(19): require_once('/Volumes/Work/B...')
+#5 /Volumes/Work/Beetroot/e-Shop/index.php(17): require('/Volumes/Work/B...')
+#6 {main}
+  thrown у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T12:41:44+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/product-item.php(4): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(50): get_template_part('template-parts/...')
+#7 /Volumes/Work/Beetr у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T14:06:14+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/product-item.php(4): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(50): get_template_part('template-parts/...')
+#7 /Volumes/Work/Beetr у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+
+2020-05-10T14:07:56+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/template-parts/product-item.php(4): woocommerce_show_product_sale_flash()
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(725): require('/Volumes/Work/B...')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/template.php(672): load_template('/Volumes/Work/B...', false)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#6 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/bestseller-products.php(50): get_template_part('template-parts/...')
+#7 /Volumes/Work/Beetr у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/single-product/sale-flash.php доступно 25
+

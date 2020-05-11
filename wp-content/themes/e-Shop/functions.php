@@ -108,6 +108,24 @@ function register_widgets() {
 	] );
 	register_sidebar( [ 'name' => 'Товари з найбільшим рейтенгом', 'id' => 'bestseller' ] );
 	register_sidebar( [ 'name' => 'Соціальні мережі', 'id' => 'socials' ] );
+	register_sidebar( [
+		'name'         => 'Меню підвалу (ліве)',
+		'id'           => 'left_footer_menu',
+		'before_title' => '<div class="footer-title"><h5>',
+		'after_title'  => "</h5></div>\n"
+	] );
+	register_sidebar( [
+		'name'         => 'Меню підвалу (центр)',
+		'id'           => 'center_footer_menu',
+		'before_title' => '<div class="footer-title"><h5>',
+		'after_title'  => "</h5></div>\n"
+	] );
+	register_sidebar( [
+		'name'         => 'Меню підвалу (праве)',
+		'id'           => 'right_footer_menu',
+		'before_title' => '<div class="footer-title"><h5>',
+		'after_title'  => "</h5></div>\n"
+	] );
 };
 
 add_action( 'widgets_init', 'register_widgets' );
@@ -174,4 +192,16 @@ function get_formatted_cart_item_data( $cart_item, $flat = false ) {
 	}
 
 	return '';
+};
+
+
+function woocommerce_account_content() {
+	global $wp;
+	if(! empty ($wp->query_vars['view-order']) ? $view_order = $wp->query_vars['view-order'] : $view_order = '') {
+		do_action('woocommerce_account_view-order_endpoint', $view_order);?>
+		<div class="btnback"><a href="<?php echo home_url('/my-account/'); ?>" class="button">Назад</a></div>
+	<?php } else {
+		wc_get_template('myaccount/view-account.php');
+	};
+
 };

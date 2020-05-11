@@ -2,10 +2,10 @@
 	<!-- FOOTER-AREA START -->
 	<section>
 		<!-- START BRAND-LOGO-AREA -->
-		<?php get_template_part('template-parts/brands-logo'); ?>
+	  <?php get_template_part( 'template-parts/brands-logo' ); ?>
 		<!-- END BRAND-LOGO-AREA -->
 		<!-- START SUBSCRIBE-AREA -->
-		<?php get_template_part('template-parts/subscribe'); ?>
+	  <?php get_template_part( 'template-parts/subscribe' ); ?>
 		<!-- END SUBSCRIBE-AREA -->
 	</section>
 	<!-- Footer Start -->
@@ -13,64 +13,37 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-3">
-					<div class="footer-title">
-						<h5>My Account</h5>
-					</div>
-					<nav>
-						<ul class="footer-content">
-							<li><a href="my-account.html">My Account</a></li>
-							<li><a href="#">Order History</a></li>
-							<li><a href="wishlist">Wish List</a></li>
-							<li><a href="#">Search Terms</a></li>
-							<li><a href="#">Returns</a></li>
-						</ul>
-					</nav>
+			    <?php dynamic_sidebar( 'left_footer_menu' ); ?>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-3">
-					<div class="footer-title">
-						<h5>Customer Service</h5>
-					</div>
-					<nav>
-						<ul class="footer-content">
-							<li><a href="contact.html">Contact Us</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="#">Delivery Information</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms & Conditions</a></li>
-						</ul>
-					</nav>
+			    <?php dynamic_sidebar( 'center_footer_menu' ); ?>
 				</div>
 				<div class="col-xs-12 hidden-sm col-md-3">
-					<div class="footer-title">
-						<h5>Payment & Shipping</h5>
-					</div>
-					<nav>
-						<ul class="footer-content">
-							<li><a href="#">Brands</a></li>
-							<li><a href="#">Gift Vouchers</a></li>
-							<li><a href="#">Affiliates</a></li>
-							<li><a href="shop-list.html">Specials</a></li>
-							<li><a href="#">Search Terms</a></li>
-						</ul>
-					</nav>
+			    <?php dynamic_sidebar( 'right_footer_menu' ); ?>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="footer-title">
-						<h5>Payment & Shipping</h5>
+						<h5>Контакти</h5>
 					</div>
 					<nav>
-						<ul class="footer-content box-information">
+						<ul class="menu box-information">
 							<li>
-								<i class="fa fa-home"></i><span>Towerthemes, 1234 Stret Lorem, LPA States, Libero</span>
+								<i class="fa fa-home"></i><?php the_field('footer_address', 'options'); ?></span>
 							</li>
 							<li>
 								<i class="fa fa-envelope-o"></i>
-								<p><a href="contact.html">admin@bootexperts.com</a></p>
+								<p><a href="mailto:<?php the_field('footer_e-mail', 'options'); ?>"><?php the_field('footer_e-mail', 'options'); ?></a></p>
 							</li>
 							<li>
 								<i class="fa fa-phone"></i>
-								<span>01234-56789</span> <br> <span> 01234-56789</span>
+								<a href="tel:<?php the_field('footer_phone-1', 'options'); ?>"><?php the_field('footer_phone-1', 'options'); ?></a>
 							</li>
+							<?php if ( get_field('footer_phone-2', 'options') ) : ?>
+							<li>
+								<i class="fa fa-phone"></i>
+								<a href="tel:<?php the_field('footer_phone-2', 'options'); ?>"><?php the_field('footer_phone-2', 'options'); ?></a>
+							</li>
+							<?php endif;?>
 						</ul>
 					</nav>
 				</div>
@@ -84,11 +57,12 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="copyright">
-						<p>Copyright &copy; Взято с <a href="http://bayguzin.ru" target="_blank"> bayguzin.ru</a> All rights
-							reserved.</p>
+						<p>Copyright &copy; <?php echo date('Y'); ?> Всі права захищені.</p>
 						<div class="payment">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/payment.png"
-							                 alt="Payment"></a>
+							<a href="<?php the_field('footer_payment_url', 'options'); ?>" target="_blank">
+								<img src="<?php the_field('footer_payment_img', 'options'); ?>"
+							                 alt="Payment">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -110,7 +84,8 @@
 						<div class="modal-product">
 							<div class="product-images">
 								<div class="main-image images">
-									<img alt="#" src="<?php echo get_template_directory_uri(); ?>/assets/img/product/quickview-photo.jpg"/>
+									<img alt="#"
+									     src="<?php echo get_template_directory_uri(); ?>/assets/img/product/quickview-photo.jpg"/>
 								</div>
 							</div><!-- .product-images -->
 							<div class="product-info" style="width:60%;">

@@ -1,0 +1,11 @@
+2020-05-08T17:15:31+00:00 CRITICAL Cannot redeclare woocommerce_account_content() (previously declared in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3012) у /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/myaccount/my-account.php доступно 36
+
+2020-05-08T20:14:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_account_edit_address(), 0 passed in /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/myaccount/view-account.php on line 31 and exactly 1 expected in /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3108
+Stack trace:
+#0 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/woocommerce/myaccount/view-account.php(31): woocommerce_account_edit_address()
+#1 /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Volumes/Work/B...')
+#2 /Volumes/Work/Beetroot/e-Shop/wp-content/themes/e-Shop/functions.php(203): wc_get_template('myaccount/view-...')
+#3 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Volumes/Work/Beetroot/e-Shop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Volumes/Work/Beetroot/e-Shop/wp-includes/plugin.php(478): WP_Hook->do_action(A у /Volumes/Work/Beetroot/e-Shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php доступно 3108
+

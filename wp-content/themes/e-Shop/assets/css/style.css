@@ -183,7 +183,11 @@ body {
 }
 
 .btn-primary,
-.wishlist_table tr td .add_to_cart_button {
+.wishlist_table tr td .add_to_cart_button,
+.my-account a.woocommerce-button,
+.my-account a.woocommerce-MyAccount-downloads-file,
+.my-account .woocommerce .button,
+a.button.wc-backward {
 	background-color: #229ac8;
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
@@ -191,13 +195,19 @@ body {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	transition: all 0.3s ease 0s;
+	border-radius: unset;
 }
 
 .btn.btn-primary:hover,
-.wishlist_table tr td a:hover {
+.wishlist_table tr td a:hover,
+.my-account a.woocommerce-button:hover,
+.my-account a.woocommerce-MyAccount-downloads-file:hover,
+.my-account .woocommerce .button:hover,
+a.button.wc-backward:hover {
 	background: #ED7987 !important;
 	background-image: none;
 	border-color: #ED7987 !important;
+	color: #fff;
 }
 
 label {
@@ -1722,6 +1732,13 @@ a.posts-read-more:hover {
 	position: relative;
 }
 
+.product-area .single-product {
+	min-height: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .product-img a {
 	position: relative;
 	display: block
@@ -2149,19 +2166,19 @@ form.newsletter .tnp-field-email {
 	text-transform: uppercase;
 }
 
-ul.footer-content {
+.footer ul.menu {
 	margin-left: 15px;
 	margin-top: 15px;
 	padding-left: 0;
 	margin-bottom: 10px;
 }
 
-ul.footer-content li {
+.footer ul.menu li {
 	list-style: outside none disc;
 	color: #808080;
 }
 
-ul.footer-content li a {
+.footer ul.menu li a {
 	color: #ddd;
 	display: block;
 	font-family: 'Roboto', sans-serif;
@@ -2171,7 +2188,7 @@ ul.footer-content li a {
 	transition: all 0.3s ease 0s;
 }
 
-ul.footer-content li a:hover {
+.footer ul.menu li a:hover {
 	color: #e95668;
 }
 
@@ -2179,13 +2196,13 @@ ul.footer-content li a:hover {
 	margin-left: 0;
 }
 
-ul.footer-content.box-information li {
+.footer ul.menu.box-information li {
 	color: #ddd;
 	list-style: outside none none;
 	min-height: 40px;
 }
 
-ul.footer-content.box-information li i {
+.footer ul.menu.box-information li i {
 	color: #e95668;
 	float: left;
 	height: 30px;
@@ -2193,7 +2210,7 @@ ul.footer-content.box-information li i {
 	width: 25px;
 }
 
-ul.footer-content.box-information li a {
+.footer ul.menu.box-information li a {
 	color: #26acce;
 }
 
@@ -2537,6 +2554,7 @@ h3.widget-title-modal {
 .yith-quick-view .woocommerce div.product div.images {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	height: 100%;
 }
 
@@ -3425,7 +3443,7 @@ legend {
 }
 
 .contact-message .buttons {
-	margin: 1em 0;
+	text-align: right;
 }
 
 .contact-message .btn.btn-primary {
@@ -3626,7 +3644,7 @@ blockquote {
 	font-size: 20px;
 	font-weight: bold;
 	margin: 0;
-	padding: 30px 0;
+	padding: 30px 0 0;
 	text-transform: uppercase;
 }
 
@@ -4097,9 +4115,6 @@ table.wishlist_table {
 	color: green;
 }
 
-.my-account ul.page-menu {
-	margin-bottom: unset;
-}
 
 .woocommerce.product.compare-button {
 	margin-right: 5px;
@@ -4128,4 +4143,17 @@ table.wishlist_table {
 .yith-wcqv-button.qvicon:after {
 	font-family: Font Awesome\ 5 Free;
 	content: "\f00e";
+}
+
+.my-account .order-again,
+.my-account .btnback {
+	text-align: right;
+}
+
+.my-account .entry-title {
+	padding: unset;
+}
+
+.page-content.csp .single_add_to_cart_button {
+	margin: 0 5px 0 5px !important;
 }

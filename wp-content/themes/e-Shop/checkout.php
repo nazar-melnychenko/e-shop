@@ -12,7 +12,7 @@ get_header();
 			  <?php do_action( 'woocommerce_before_main_content' ); ?>
 				</ul>
 			</div>
-		</div>`
+		</div>
 		<div class="row">
 			<div class="col-md-3">
 				<!-- CATEGORY-MENU-LIST START -->

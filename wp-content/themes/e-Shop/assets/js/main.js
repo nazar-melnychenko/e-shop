@@ -252,26 +252,20 @@
 	});
 
 	function initialize() {
-		var mapOptions = {
+		let mapOptions = {
 			zoom: 12,
 			scrollwheel: false,
 			center: new google.maps.LatLng(48.921500, 24.7097200)
 		};
-
-		var map = new google.maps.Map(document.getElementById('googleMap'),
+		let map = new google.maps.Map(document.getElementById('googleMap'),
 			mapOptions);
-
-		var marker = new google.maps.Marker({
+		let marker = new google.maps.Marker({
 			position: map.getCenter(),
 			animation: google.maps.Animation.BOUNCE,
-			icon: 'img/map-marker.png',
 			map: map
 		});
 	}
-
 	google.maps.event.addDomListener(window, 'load', initialize);
-
-
 })(jQuery);
 
 jQuery(function($) {

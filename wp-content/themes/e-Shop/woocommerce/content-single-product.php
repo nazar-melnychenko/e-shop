@@ -8,7 +8,7 @@ if ( post_password_required() ) {
 
 	return;
 }; ?>
-<section class="page-content">
+<section class="page-content csp">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
