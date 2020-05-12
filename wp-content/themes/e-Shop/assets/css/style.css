@@ -1732,11 +1732,32 @@ a.posts-read-more:hover {
 	position: relative;
 }
 
-.product-area .single-product {
+.product-area .not-listview .single-product {
 	min-height: 320px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.product-area .listview .product-action p.stock {
+	padding: 5px 0;
+	color: green;
+}
+
+.product-area .listview .product-action form.cart {
+	display: flex;
+}
+
+.product-area .listview .product-action form.cart .quantity {
+	margin-right: 5px;
+}
+
+.product-area .listview .product-action form.variations_form .single_add_to_cart_button {
+	width: unset;
+}
+
+.product-area .listview .product-action .product-button-2 {
+	justify-content: unset;
 }
 
 .product-img a {
@@ -2817,7 +2838,6 @@ span.count {
 	border-width: 1px;
 	font-weight: bold;
 	font-size: 15px;
-	height: 40px;
 	line-height: 40px;
 	letter-spacing: 3px;
 	text-align: center;

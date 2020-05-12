@@ -1,5 +1,6 @@
 <?php
 add_action( 'after_setup_theme', 'woocommerce_support' );
+
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
@@ -194,7 +195,6 @@ function get_formatted_cart_item_data( $cart_item, $flat = false ) {
 	return '';
 };
 
-
 function woocommerce_account_content() {
 	global $wp;
 	if(! empty ($wp->query_vars['view-order']) ? $view_order = $wp->query_vars['view-order'] : $view_order = '') {
@@ -205,3 +205,29 @@ function woocommerce_account_content() {
 	};
 
 };
+
+function be_register_blocks() {
+	if( ! function_exists('acf_register_block') )
+		return;
+	acf_register_block([
+		'name'			=> 'about',
+		'title'			=> __( 'About', 'clientname' ),
+		'render_template'	=> 'partials/block-about.php',
+		'category'		=> 'formatting',
+		'icon'			=> 'format-aside',
+		'keywords'		=> array( 'profile', 'user', 'author' ),
+		'enqueue_style'  => get_template_directory_uri() . '/partials/about.css',
+	]);
+
+	acf_register_block([
+		'name'			=> 'our-team',
+		'title'			=> __( 'Our team', 'clientname' ),
+		'render_template'	=> 'partials/block-our-team.php',
+		'category'		=> 'formatting',
+		'icon'			=> 'format-aside',
+		'keywords'		=> array( 'profile', 'user', 'author' ),
+		'enqueue_style'  => get_template_directory_uri() . '/partials/about.css',
+	]);
+};
+
+add_action('acf/init', 'be_register_blocks' );

@@ -45,7 +45,7 @@ $options['confirmation_message'] = '<p>' . __('Please confirm your subscription 
 
 // Subscription confirmed text (after a user clicked the confirmation link
 // on the email he received
-$options['confirmed_text'] = '<p>Ваша підписка підтверджена !</p>';
+$options['confirmed_text'] = '<p>' . __('Your subscription has been confirmed', 'newsletter') . '</p>';
 
 $options['confirmed_subject'] = __('Welcome', 'newsletter');
 

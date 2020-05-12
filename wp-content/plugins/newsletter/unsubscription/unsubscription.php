@@ -36,7 +36,7 @@ class NewsletterUnsubscription extends NewsletterModule {
                 if ($user == null) {
                     $url = $this->build_message_url(null, 'unsubscription_error', $user);
                 } else {
-                    $url = $this->build_message_url(null, 'unsubscribe', $user);
+                    $url = $this->build_message_url(null, 'unsubscribe', $user, $email);
                 }
                 wp_redirect($url);
                 die();
@@ -45,10 +45,11 @@ class NewsletterUnsubscription extends NewsletterModule {
             case 'uc':
                 if ($this->antibot_form_check()) {
                     $user = $this->unsubscribe();
+                    $email = $this->get_email_from_request();
                     if ($user->status == 'E') {
                         $url = $this->build_message_url(null, 'unsubscription_error', $user);
                     } else {
-                        $url = $this->build_message_url(null, 'unsubscribed', $user);
+                        $url = $this->build_message_url(null, 'unsubscribed', $user, $email);
                     }
                     wp_redirect($url);
                 } else {

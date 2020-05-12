@@ -9,7 +9,7 @@ global $product;
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="page-menu">
-			  <?php do_action( 'woocommerce_before_main_content' ); ?>
+			    <?php do_action( 'woocommerce_before_main_content' ); ?>
 				</ul>
 			</div>
 		</div>
@@ -102,52 +102,52 @@ global $product;
 									<div role="tabpanel" class="tab-pane fade" id="display-1-1">
 										<div class="row">
 											<div class="listview">
-								 <?php if ( have_posts() ):
-									 while ( have_posts() ): the_post(); ?>
-															<!-- Start Single-Product -->
-															<div class="single-product">
-																<div class="col-md-3 col-sm-4 col-xs-12">
-																	<div class="label_new">
-												 <?php woocommerce_show_product_sale_flash(); ?>
-																	</div>
-																	<div class="product-img">
-																		<a href="<?php the_permalink(); ?>">
-													<?php the_post_thumbnail( 'thumbnail', 'Product' ); ?>
-																		</a>
-																	</div>
-																</div>
-																<div class="col-md-9 col-sm-8 col-xs-12">
-																	<div class="product-description">
-																		<h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-																		<div class="price-box">
-													<?php
-													global $product; ?>
-													<?php echo $product->get_price_html(); ?>
-																		</div>
-																		<span class="rating">
-																<?php stars_rating(); ?>
-															</span>
-																		<p class="description"><?php the_excerpt(); ?></p>
-																		<div class="product-action">
-																			<div class="button-group">
-																				<div class="product-button">
-														              <?php woocommerce_template_single_add_to_cart(); ?>
-																				</div>
-																				<div class="product-button-2">
-																					 <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
-																					<a href="#" class="modal-view" data-toggle="modal" data-target="#productModal"
-																					   title="Quickview"><i class="fa fa-search-plus"></i></a>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
+											 <?php if ( have_posts() ):
+												 while ( have_posts() ): the_post(); ?>
+														<!-- Start Single-Product -->
+											<div class="single-product">
+												<div class="col-md-3 col-sm-4 col-xs-12">
+													<div class="label_new">
+								            <?php woocommerce_show_product_sale_flash(); ?>
+													</div>
+													<div class="product-img">
+														<a href="<?php the_permalink(); ?>">
+															<?php the_post_thumbnail( 'thumbnail', 'Product' ); ?>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-9 col-sm-8 col-xs-12">
+													<div class="product-description">
+														<h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+														<div class="price-box">
+														<?php
+														global $product;
+														echo $product->get_price_html(); ?>
+															</div>
+															<span class="rating">
+													<?php stars_rating(); ?>
+												</span>
+													<p class="description"><?php the_excerpt(); ?></p>
+													<div class="product-action">
+														<div class="button-group">
+															<div class="product-button">
+									              <?php woocommerce_template_single_add_to_cart(); ?>
+																<div class="product-button-2">
+																  <?php echo do_shortcode('[yith_wcwl_add_to_wishlist]');?>
+																  <?php echo do_shortcode('[yith_compare_button]');?>
+																  <?php echo do_shortcode('[yith_quick_view]');?>
 																</div>
 															</div>
-															<!-- End Single-Product -->
-									 <?php endwhile; ?>
-								 <?php else: ?>
-													 В даній категорії товарів не знайдено!
-								 <?php endif; ?>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									<!-- End Single-Product -->
+										 <?php endwhile; ?>
+									 <?php else: ?>
+										 В даній категорії товарів не знайдено!
+									 <?php endif; ?>
 											</div>
 										</div>
 										<!-- Start Pagination Area -->
@@ -175,7 +175,7 @@ global $product;
 									</div>
 									<!-- End Product -->
 									<!-- Start Product-->
-									<div role="tabpanel" class="tab-pane fade in  active" id="display-1-2">
+									<div role="tabpanel" class="tab-pane fade in active not-listview" id="display-1-2">
 										<div class="row">
 							  <?php if ( have_posts() ):
 								  while ( have_posts() ): the_post(); ?>

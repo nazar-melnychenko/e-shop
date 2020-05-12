@@ -1786,7 +1786,7 @@ class NewsletterSubscription extends NewsletterModule {
             }
         }
 
-        $email = NewsletterSubscription::instance()->get_email_from_request();
+        $email = $this->get_email_from_request();
 
         $message = $this->replace($message, $user, $email, 'page');
 

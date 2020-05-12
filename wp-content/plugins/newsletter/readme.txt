@@ -2,7 +2,7 @@
 Tags: email, email marketing, newsletter, newsletter subscribers, welcome email, signup forms, contact, lead generation, popup, marketing automation
 Requires at least: 3.4.0
 Tested up to: 5.4.1
-Stable tag: 6.6.4
+Stable tag: 6.6.5
 Requires PHP: 5.6
 Contributors: satollo,webagile,michael-travan
 
@@ -108,6 +108,11 @@ Thank you, The Newsletter Team
 3. The Reports extension
 
 == Changelog ==
+
+= 6.6.5 =
+
+* Fixed email reference lost on double step cancellation
+* Update to support Instasend
 
 = 6.6.4 =
 

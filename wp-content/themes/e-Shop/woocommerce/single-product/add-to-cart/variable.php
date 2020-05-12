@@ -51,7 +51,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 		 );
 		 ?>
 			<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
-		 <?php if ( $product->get_type( 'variable' ) === 'variable' ) : ?>
+		 <?php if (( $product->get_type( 'variable' ) === 'variable' ) && is_single()) : ?>
 				 <div class="product-button-2">
 					<?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
 					<?php echo do_shortcode('[yith_compare_button]');?>
