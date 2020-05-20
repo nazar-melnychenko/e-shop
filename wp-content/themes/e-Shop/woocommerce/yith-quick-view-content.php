@@ -29,7 +29,7 @@ while ( have_posts() ) :
 							<div class="quick-desc"><?php woocommerce_template_single_excerpt(); ?></div>
 							<div class="social-sharing">
 								<div class="widget widget_socialsharing_widget">
-									<h3 class="widget-title-modal">Share this product</h3>
+									<h3 class="widget-title-modal">Поділитися цим продуктом</h3>
 									<?php wc_get_template( 'yith-quick-view-share.php'); ?>
 								</div>
 							</div>

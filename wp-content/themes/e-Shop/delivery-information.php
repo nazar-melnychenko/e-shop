@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-	<section class="page-content newsletter">
+	<section class="page-content delivery">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -20,7 +20,7 @@ get_header();
 					<?php get_template_part( 'template-parts/category' ); ?>
 					<!-- END CATEGORY-MENU-LIST -->
 				</div>
-				<div class="col-md-9 col-xs-12">
+				<div class="col-md-9 col-xs-12 delivery-main">
 					<!-- START PRODUCT-BANNER -->
 					<div class="product-banner">
 						<div class="row">
@@ -35,7 +35,14 @@ get_header();
 					</div>
 					<br />
 					<!-- END PRODUCT-BANNER -->
-					Delivery Information
+			  <?php
+				  if ( have_posts() ){
+					  while ( have_posts() ){
+						  the_post();
+						  the_content();
+					  }
+				  }
+			  ?>
 				</div>
 			</div>
 		</div>

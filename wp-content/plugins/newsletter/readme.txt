@@ -2,7 +2,7 @@
 Tags: email, email marketing, newsletter, newsletter subscribers, welcome email, signup forms, contact, lead generation, popup, marketing automation
 Requires at least: 3.4.0
 Tested up to: 5.4.1
-Stable tag: 6.6.5
+Stable tag: 6.6.7
 Requires PHP: 5.6
 Contributors: satollo,webagile,michael-travan
 
@@ -109,10 +109,26 @@ Thank you, The Newsletter Team
 
 == Changelog ==
 
+= 6.6.7 =
+
+* Fixed a debug notice on image resize
+
+= 6.6.6 =
+
+* Added check on submission for private lists (error shown only to administrator as debug information)
+* Improved right layout on hero block
+* Improved internal actions management (better performances)
+* Added lists, media selector, charmap on text block
+* Absolute path fix form media file with non relative path on database
+* Internal admin pages review for code coherence with our standard
+* Changed the action name from `newsletter_unsubscribed` to `newsletter_user_unsubscribed`. [See our developer documentation](https://www.thenewsletterplugin.com/documentation/developers/).
+* Removed deprecated function `save_profile()` on NewsletterSubscription
+
 = 6.6.5 =
 
 * Fixed email reference lost on double step cancellation
 * Update to support Instasend
+* Added "optin" support on shortcodes (see the documentation)
 
 = 6.6.4 =
 

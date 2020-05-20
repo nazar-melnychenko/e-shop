@@ -1,3 +1,9 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+
 <!-- START SMALL-PRODUCT-AREA -->
 <?php dynamic_sidebar('bestseller'); ?>
 <!-- END SMALL-PRODUCT-AREA -->

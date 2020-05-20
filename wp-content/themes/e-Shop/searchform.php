@@ -8,7 +8,7 @@
 				 $optsetlect = 0;
 			 }
 			 $args             = array(
-				 'show_option_all' => esc_html__( 'Все категории', 'woocommerce' ),
+				 'show_option_all' => esc_html__( 'Всі категорії', 'woocommerce' ),
 				 'hierarchical'    => 1,
 				 'echo'            => 1,
 				 'value_field'     => 'slug',

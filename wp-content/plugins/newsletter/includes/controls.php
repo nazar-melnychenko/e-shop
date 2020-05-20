@@ -289,8 +289,8 @@ class NewsletterControls {
             $this->button_data = $_REQUEST['btn'];
         }
         // Fields analysis
-        if (isset($_REQUEST['fields'])) {
-            $fields = $_REQUEST['fields'];
+        if (isset($_REQUEST['tnp_fields'])) {
+            $fields = $_REQUEST['tnp_fields'];
             if (is_array($fields)) {
                 foreach ($fields as $name => $type) {
                     if ($type == 'datetime') {
@@ -299,7 +299,7 @@ class NewsletterControls {
                         // GMT 0 and then we subtract the GMT offset (the example date and time on GMT+2 happens
                         // "before").
 
-                        $time = gmmktime($_REQUEST[$name . '_hour'], 0, 0, $_REQUEST[$name . '_month'], $_REQUEST[$name . '_day'], $_REQUEST[$name . '_year']);
+                        $time = gmmktime((int)$_REQUEST[$name . '_hour'], 0, 0, (int)$_REQUEST[$name . '_month'], (int)$_REQUEST[$name . '_day'], (int)$_REQUEST[$name . '_year']);
                         $time -= get_option('gmt_offset') * 3600;
                         $this->data[$name] = $time;
                     }
@@ -340,9 +340,10 @@ class NewsletterControls {
         die('Invalid call');
     }
 
-    function get_value($name) {
-        if (!isset($this->data[$name]))
-            return null;
+    function get_value($name, $def = null) {
+        if (!isset($this->data[$name])) {
+            return $def;
+        }
         return $this->data[$name];
     }
 
@@ -1255,8 +1256,13 @@ class NewsletterControls {
      * Date and time (hour) selector. Timestamp stored.
      */
     function datetime($name) {
-        echo '<input type="hidden" name="fields[' . esc_attr($name) . ']" value="datetime">';
-        $time = $this->data[$name] + get_option('gmt_offset') * 3600;
+        echo '<input type="hidden" name="tnp_fields[' . esc_attr($name) . ']" value="datetime">';
+        $value = (int)$this->get_value($name);
+        if (empty($value)) {
+            $value = time();
+        }
+
+        $time = $value + get_option('gmt_offset') * 3600;
         $year = gmdate('Y', $time);
         $day = gmdate('j', $time);
         $month = gmdate('m', $time);

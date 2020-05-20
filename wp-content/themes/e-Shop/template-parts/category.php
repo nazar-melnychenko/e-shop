@@ -1,4 +1,8 @@
-
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
 	<!-- CATEGORY-MENU-LIST START -->
 	<div class="left-category-menu hidden-sm hidden-xs">
 		<div class="left-product-cat">

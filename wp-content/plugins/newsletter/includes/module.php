@@ -154,7 +154,10 @@ abstract class TNP_User {
  * @property array $options The subscriber status
  * */
 abstract class TNP_Email {
-
+    const STATUS_DRAFT = 'new';
+    const STATUS_SENT = 'sent';
+    const STATUS_SENDING = 'sending';
+    const STATUS_PAUSED = 'paused';
 }
 
 class NewsletterModule {
@@ -965,6 +968,8 @@ class NewsletterModule {
     /** Searches for a user using the nk parameter or the ni and nt parameters. Tries even with the newsletter cookie.
      * If found, the user object is returned or null.
      * The user is returned without regards to his status that should be checked by caller.
+     * 
+     * DO NOT REMOVE EVEN IF OLD
      *
      * @return TNP_User
      */
@@ -1091,7 +1096,7 @@ class NewsletterModule {
             if ($die_on_fail) {
                 die(__('No subscriber found.', 'newsletter'));
             } else {
-                return null;
+                return $this->get_user_from_logged_in_user();
             }
         }
 
@@ -1105,10 +1110,16 @@ class NewsletterModule {
             if ($die_on_fail) {
                 die(__('No subscriber found.', 'newsletter'));
             } else {
-                return null;
+                return $this->get_user_from_logged_in_user();
             }
         }
         return $user;
+    }
+    
+    function get_user_from_logged_in_user() {
+        if (is_user_logged_in()) {
+            return $this->get_user_by_wp_user_id(get_current_user_id());
+        }
     }
 
     /**
@@ -1495,7 +1506,7 @@ class NewsletterModule {
         $this->logger->debug('Status change to ' . $status . ' of subscriber ' . $user->id . ' from ' . $_SERVER['REQUEST_URI']);
 
         $this->query($wpdb->prepare("update " . NEWSLETTER_USERS_TABLE . " set status=%s where id=%d limit 1", $status, $user->id));
-
+        $user->status = $status;
         return $this->get_user($user);
     }
 
@@ -1511,8 +1522,7 @@ class NewsletterModule {
         $token = $this->get_token();
 
         $this->query($wpdb->prepare("update " . NEWSLETTER_USERS_TABLE . " set token=%s where id=%d limit 1", $token, $user->id));
-
-        return $this->get_user($user);
+        $user->token = $token;
     }
 
     /**
@@ -2107,6 +2117,15 @@ class NewsletterModule {
         $blogname = wp_specialchars_decode(get_option('blogname'), ENT_QUOTES);
 
         return '[' . $blogname . '] ' . $subject;
+    }
+    
+    function dienow($message, $admin_message = null)
+    {
+        if ($admin_message && current_user_can('administrator')) {
+            $message .= '<br><br><strong>Text below only visibile to administrarors</strong><br>';
+            $message .= $admin_message;
+        }
+        wp_die($message, 200);
     }
 
 }

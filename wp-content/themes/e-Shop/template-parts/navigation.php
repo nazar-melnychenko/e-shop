@@ -1,3 +1,9 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+
 <!-- START MAINMENU-AREA -->
 <div class="mainmenu-area">
 	<div class="container">
@@ -25,6 +31,7 @@
 						'theme_location'  => 'header_menu',
 					]);?>
 				</nav>
+			<?php echo do_shortcode('[woocs show_flags=1 flag_position=right style=1]'); ?>
 			</div>
 		</div>
 	</div>

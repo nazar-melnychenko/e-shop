@@ -1,4 +1,10 @@
-<?php global $product; ?>
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+global $product;
+?>
+
 <div class="single-product">
 <div class="label_new">
 	<?php woocommerce_show_product_sale_flash();?>

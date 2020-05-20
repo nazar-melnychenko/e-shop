@@ -55,7 +55,7 @@ get_header();
 							  );
 							  $loop = new WP_Query( $args );
 							  while ( $loop->have_posts() ) : $loop->the_post(); ?>
-												 <div class="col-md-3 col-sm-4 col-xs-12">
+												 <div class="col-md-3 col-sm-4 col-xs-12 not-listview">
 									 <?php get_template_part( 'template-parts/product-item' ); ?>
 												 </div>
 							  <?php endwhile; ?>
