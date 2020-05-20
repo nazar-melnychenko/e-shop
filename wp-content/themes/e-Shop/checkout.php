@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<section class="page-content">
+<section class="page-content ">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
