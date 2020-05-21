@@ -8,8 +8,6 @@ function woocommerce_support() {
 function register_styles_scripts() {
 	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.min.css' );
-
-	wp_deregister_script( 'jquery' );
 	wp_enqueue_script( 'googleapis', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCDCApeoMpSTQxvz14Yhh09zlsw8FhB2ck&libraries', [], null, true );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.min.js', [], null, true );
 

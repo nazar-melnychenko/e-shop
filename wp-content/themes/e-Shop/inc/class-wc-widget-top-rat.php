@@ -60,7 +60,7 @@ class WC_Widget_Top_Rated extends WC_Widget {
 					  global $product; ?>
 								<div class="single-product">
 									<div class="product-img">
-							  <?php the_post_thumbnail( 'thumbnail', 'Product' ); ?>
+							      <?php the_post_thumbnail( 'thumbnail', 'Product' ); ?>
 									</div>
 									<div class="product-description">
 										<h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
